@@ -28,14 +28,12 @@ class App extends React.Component{
   }
 
   onModifyHandler =(id) => {
-    let temp = this.state.todoList.map( (el) => {
-      let jj = el.filter( j => j.id === id )
-      return(
-        jj
-      )
-    })
-
-    console.log(temp)
+    // let temp = this.state.todoList.map( (el) => {
+    //   let jj = el.filter( j => j.id === id )
+    //   return(
+    //     jj
+    //   )
+    // })
 
   }
 
